@@ -1,0 +1,21 @@
+/*
+1- Girilen sayıya kadar olan tek tamsayıların toplamını hesaplayan program.
+*/
+
+package tutorial1;
+import java.util.Scanner;
+public class ALGORITMA{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("hangi sayıya kadar olan tek sayıları toplamını istiyorsunuz= ");
+		int sayı=sc.nextInt();
+		int sum=0;
+		for (int i=1;i<=sayı;i+=2) {
+			sum=sum+i;
+			
+		}
+		System.out.println(sum);
+		
+	}
+}
+
