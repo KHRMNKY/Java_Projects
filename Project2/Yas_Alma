@@ -1,0 +1,27 @@
+package tutorial2;
+
+import java.util.Scanner;
+
+public class Conditions_and_Booleans {
+
+	public static void main(String[] args) {
+		System.out.println("lutfen yasinizi giriniz= ");
+		Scanner sc=new Scanner(System.in);
+		String age1=sc.nextLine(); //next ile nextLine farklı. next sadece bır strıng alırken dıgerı satırda ne varsa alır
+		int age=Integer.parseInt(age1);
+		if (age<10) {
+			System.out.println("yasiniz 10 dan kücüktür.");
+		}
+		else if(10<age && age<20) {  //10<age<20 yok java da . bundan && kullandım.
+			System.out.println("yasiniz 10 ile 20 arasındadir.");
+		}
+		
+		else {
+			System.out.println("yasiniz 20 den büyüktür. ");
+		}
+		
+		
+		
+	}
+
+}
