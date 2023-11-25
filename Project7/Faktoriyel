@@ -1,0 +1,20 @@
+/*
+1- Girilen sayının faktorıyelını hesaplama.
+*/
+
+package tutorial1;
+import java.util.Scanner;
+public class ALGORITMA{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("hangi sayının faktoriyelini hesaplamak istiyorsunuz= ");
+		int sayı=sc.nextInt();
+		int carp=1;
+		for(int i=1;i<=sayı;i++) {
+			carp=carp*i;
+		}
+		System.out.println(carp);
+		
+	}
+}
+
