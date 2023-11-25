@@ -1,0 +1,21 @@
+/*
+1-sınıfın her bir öğrencisinden notunu al.
+2-bu alınan tüm notların ortalamasını yazdır
+*/
+
+package tutorial1;
+import java.util.Scanner;
+public class ALGORITMA{
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		int sum=0;
+		for(int i=0;i<3;i++) {
+			System.out.println("lütfen notunuzu giriniz=");
+			long not=sc.nextLong();
+			sum+=not;
+		}
+		System.out.println("sınıfın not ortalaması= " + sum/3);
+		
+	}
+}
+
