@@ -1,0 +1,23 @@
+/*
+1-program "Merhaba Dunya" yazdıralacak. 
+2-kişiye kac kere bunu yazdırmak istediği sorulacak
+3-ekrana kişinin istediği sayı kadar ekrana "Merhaba Dunya" yazdırılacak.
+*/
+
+package tutorial1;
+import java.util.Scanner;
+public class ALGORITMA{
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Ekrana kac kere Merhaba Dunya yazdırmak istiyorsun= ");
+		int sayı=sc.nextInt();
+		for(int i=0;i<sayı;i++) {
+			System.out.println(i+"- Merhaba Dunya");
+			
+		}
+		
+		
+		
+	}
+}
+
