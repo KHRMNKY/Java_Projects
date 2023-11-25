@@ -1,3 +1,8 @@
+/*
+1-bir sayı al 
+2-bu sayı çift ise kendisini yazdır değilse asal mı diye bak. 
+3-eğer asal ise 1.basamakta alınan sayının faktöriyelini hesapla. asal değilse o sayının fibonaci karşılığını hesapla.
+*/
 package tutorial1;
 import java.util.Scanner;
 
