@@ -1,3 +1,4 @@
+// dikdörtgenin verilen iki kenar uzunluğu ile * işareti ile dikdörtgen çizimi.
 package tutorial2;
 import java.util.Scanner;
 public class Dikdörtgen {
