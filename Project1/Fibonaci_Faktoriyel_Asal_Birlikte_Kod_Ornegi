@@ -3,10 +3,10 @@
 2-bu sayı çift ise kendisini yazdır değilse asal mı diye bak. 
 3-eğer asal ise 1.basamakta alınan sayının faktöriyelini hesapla. asal değilse o sayının fibonaci karşılığını hesapla.
 */
-package tutorial1;
-import java.util.Scanner;
 
-public class ALGORITMA {
+package java1;
+import java.util.Scanner;
+public class karısık {
     public static void main(String[] args) {
 
         Scanner klavye = new Scanner(System.in);
@@ -20,17 +20,18 @@ public class ALGORITMA {
         
         else{
         	boolean sonuc = true;
-        	for(int i=2;i<=sayı1;i++) {
+        	for(int i=2;i<sayı1;i++) {
         		if (sayı1%i==0) {
         			sonuc=false;
         			break;}
         	}  
-            if(sonuc) {  
+            if(!sonuc) {  
             	int carp=1;
             	for(int j=1;j<=sayı1;j++) {
             		carp=carp*j;
-            		System.out.println(carp);
+            		//System.out.println(carp);
             	}
+            	System.out.println(carp);
             }
 
             else {
