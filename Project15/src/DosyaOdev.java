@@ -33,6 +33,7 @@ public class DosyaOdev {
         BufferedReader bReader=new BufferedReader(fReader);
 
         while((line=bReader.readLine())!=null){
+            line =line.trim();
             bWriter1.write("\nSAYIN " + line);
         }
         bReader.close();
