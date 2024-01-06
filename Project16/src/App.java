@@ -19,7 +19,8 @@ public class App {
         } 
         while (sum != (number1 + number2));
             System.out.println("Tebrikler, doğru cevabı girdiniz.");
-        
+            
+            
 
             
         
