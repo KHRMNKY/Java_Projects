@@ -12,7 +12,10 @@ public class App {
             number2 = (int) (Math.random() * 10);
             System.out.println(number1 + " ile " + number2 + " toplamını giriniz.");
             sum = sc.nextInt();
-            System.out.println("Yanlış topladınız, tekrar deneyiniz.");
+            if (sum != (number1 + number2)){
+                System.out.println("Yanlış topladınız, tekrar deneyiniz.");
+            }
+            
         } 
         while (sum != (number1 + number2));
             System.out.println("Tebrikler, doğru cevabı girdiniz.");
