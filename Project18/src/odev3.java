@@ -25,6 +25,5 @@ public class odev3 {
         System.out.println("en kucuk deger "+ en_kucuk);
         System.out.printf("en kucuk degerın ındısı= [%d,%d]'dir", a,b );
 
-
 }
 }
