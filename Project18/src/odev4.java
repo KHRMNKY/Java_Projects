@@ -8,7 +8,7 @@ public class odev4 {
         int number=sc.nextInt();
         int max=number;
 
-        for(int i=0; i<4; i++){
+        for(int i=0; i<5; i++){
             System.out.println("lütfen bir giriş degerlerını giriniz");
             int nm=sc.nextInt();
             if (nm>max){
