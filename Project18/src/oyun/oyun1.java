@@ -1,3 +1,4 @@
+package oyun;
 import java.util.Scanner;
 
 public class oyun1 {
@@ -5,7 +6,11 @@ public class oyun1 {
     public static void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
             for (int num : row) {
-                System.out.print(num + " ");
+                if (num == -1) {
+                    System.out.print("X ");
+                } else {
+                    System.out.print(num + " ");
+                }
             }
             System.out.println();
         }
@@ -24,6 +29,22 @@ public class oyun1 {
             while (r >= 0 && r < matrix.length && c >= 0 && c < matrix[0].length) {
                 if (matrix[r][c] == targetValue) {
                     matrix[r][c] = -1; // -1, X karakterini temsil eder
+                    // Aynı sayıyı bulduk, şimdi bu hücrenin komşularını kontrol et
+                    for (int j = 0; j < 4; j++) {
+                        int nr = r + directions[j];
+                        int nc = c + directions[(j + 1) % 4];
+
+                        while (nr >= 0 && nr < matrix.length && nc >= 0 && nc < matrix[0].length) {
+                            if (matrix[nr][nc] == targetValue) {
+                                matrix[nr][nc] = -1;
+                            } else {
+                                break;
+                            }
+
+                            nr += directions[j];
+                            nc += directions[(j + 1) % 4];
+                        }
+                    }
                 } else {
                     break;
                 }
