@@ -1,18 +1,17 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Oryantasyon dersi final ve vize Ödevi
 
-## Folder Structure
+Bu repo fırat üniversitesi oryantasyon dersi için yapılmış projeler içermekte.
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Ekler
+Fırat üniveristesi oryantasyon dersi final ödevi:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+final link: https://youtu.be/LStaV0Hx4pw?si=az3TfCf8n5IrT0tb
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+vize link: https://youtu.be/eYDy5xy5Aog?si=EcoEfBODQFeUmf9P
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+  
